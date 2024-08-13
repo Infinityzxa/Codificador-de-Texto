@@ -12,7 +12,7 @@ function criptografar(entradaUsuario) {
         .replace(/u/g, 'ufat');
     document.getElementById('textoSaida').innerText = textoCriptografado;
     document.getElementById('imagemSaida').style.display = 'none'; 
-    document.getElementById('copiar').style.display = 'block';
+    document.getElementById('Copiar').style.display = 'block';
 }
 
 function descriptografar(entradaUsuario) {
@@ -24,7 +24,7 @@ function descriptografar(entradaUsuario) {
         .replace(/ufat/g, 'u');
     document.getElementById('textoSaida').innerText = textoDescriptografado;
     document.getElementById('imagemSaida').style.display = 'none'; 
-    document.getElementById('copiar').style.display = 'block';
+    document.getElementById('Copiar').style.display = 'block';
 }
 
 function validarECriptografar() {
