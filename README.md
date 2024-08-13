@@ -25,4 +25,4 @@ O **Codificador e Decodificador de Texto** é uma aplicação web simples que pe
 ## 🛠️ Abrir e rodar o projeto
 Para abrir e executar o projeto, siga os passos abaixo:
 
-1.
+1.https://codificador-de-texto-eight.vercel.app/
