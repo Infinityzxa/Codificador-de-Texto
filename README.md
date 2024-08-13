@@ -7,7 +7,7 @@ O **Codificador e Decodificador de Texto** é uma aplicação web simples que pe
 
 Para o desenvolvimento deste projeto, começamos com HTML para criar a estrutura básica do arquivo `index.html`. Utilizamos CSS para a estilização do projeto, o que incluiu a implementação de animações, ícones flutuantes, botões animados e a aplicação das cores definidas.
 
-A lógica do projeto foi estruturada usando JavaScript ES6. Empregamos a manipulação do DOM para selecionar elementos e organizamos os scripts com as práticas de importação e exportação. Isso facilitou a inclusão eficiente dos áudios e possibilitou a implementação das funcionalidades interativas da página.
+A lógica do projeto foi estruturada usando JavaScript.
 
 
 ## 🔨 Funcionalidades do projeto
