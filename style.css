@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor1: #CDE8E5;
+    --cor2: #EEF7FF;
+    --cor3: #7AB2B2;
+    --cor4: #4D869C;
+    --cor5: #6482AD;
+    --cor6: #B2E9FE;
+
+    --hovercor: aquamarine;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(211, 234, 255);
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(211, 234, 255);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+}
+
+.cabecalho {
+    padding: 1%;
+    background-color: rgb(208, 231, 250);
+    display: flex;
+}
+
+.Links {
+    display: flex;
+}
+
+.LogodaAlura {}
+
+.you {
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.git {
+    margin-left: 800px;
+    height: 40px;
+    width: 40px;
+}
+
+.atencao {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Atecao {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5px;
+    height: 20px;
+    margin-top: 70px;
+}
+
+.plavates {
+    margin-top: 75px;
+    color: black;
+    font-style: normal;
+    font-size: small;
+}
+
+.userinput {
+    display: flex;
+    justify-content: center;
+}
+
+.textarea {
+    border: none;
+    border-radius: 26px;
+    padding: 1%;
+    margin-right: 14%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    text-decoration-line: none;
+    text-transform: lowercase;
+    width: 700px;
+    overflow: hidden;
+    background-color: var(--cor2);
+}
+
+.output {
+    margin-top: -5%;
+    border-radius: 20px;
+    background-color: var(--cor6);
+    padding-left: 0.4%;
+    min-width: 476px;
+    min-height: 680px;
+    max-width: 476px;
+    max-height: 680px;
+    border-radius: 56px;
+    color: #000000;
+    border: white;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.output1 {
+    height: 42.5rem;
+    width: 29.75rem;
+}
+
+.copiartexto {
+    display: flex;
+    background: none;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 16%;
+    width: 476px;
+    height: 70px;
+    border-radius: 90px;
+    border-color: #4E6C8C;
+    border-width: 1px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.BotaoCriptografar:hover {
+    background-color: var(--hovercor);
+}
+
+.BotaoDescriptografar:hover {
+    background-color: var(--hovercor);
+}
+
+.copiartexto:hover {
+    background-color: var(--hovercor);
+}
+
+.botao1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.BotaoCriptografar {
+    background-color: #B2E9FE;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    margin-left: 8%;
+    margin-right: 5%;
+    width: 278px;
+    height: 70px;
+    border-radius: 12px;
+    border-color: #4E6C8C;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.BotaoDescriptografar {
+    display: flex;
+    background: none;
+    align-items: center;
+    padding-left: 4.5%;
+    margin-left: 4%;
+    width: 278px;
+    height: 70px;
+    border-radius: 12px;
+    border-color: #4E6C8C;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@keyframes trocadecor {
+    0% {
+        color: #ff0000; /* Vermelho */
+    }
+    25% {
+        color: #00ff00; /* Verde */
+    }
+    50% {
+        color: #0000ff; /* Azul */
+    }
+    75% {
+        color: #ff00ff; /* Rosa */
+    }
+    100% {
+        color: #ff0000; /* Volta ao Vermelho */
+    }
+}
+
+.Desenvolvedor {
+    font-size: 24px;
+    animation: trocadecor 4s infinite;
+}
+
+.Dev {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor4);
+}
+
+
+@media (max-width: 968px) {
+    .links {
+        display: flex;
+        justify-content: center;
+        margin: 2px;
+    }
+
+    .Atecao {
+        width: 20px;
+    }
+
+    .userinput {
+        margin: 2%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textarea {
+        height: 500px;
+    }
+
+    .output1 {
+        height: 476px;
+        width: 280px;
+    }
+
+    .output {
+        margin-top: 2%;
+        height: auto;
+        width: auto;
+    }
+
+    .BotaoCriptografar, .BotaoDescriptografar, .textarea {
+        margin-top: 2%;
+        width: 100%;
+        max-width: none;
+    }
+
+    .copiartexto {
+        margin-top: 2%;
+    }
+
+    .botao1 {
+        flex-direction: column; 
+    }
+
+    .Dev {
+        display: none;
+    }
+}
+
+@media (max-width: 380px) {
+    .Atecao, .plavates, .userinput, .textarea, .output, .copiartexto, .BotaoCriptografar, .BotaoDescriptografar {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .textarea {
+        height: 300px;
+    }
+}
