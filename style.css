@@ -146,6 +146,7 @@ body {
 }
 
 .botao1 {
+    margin-botton: 2%;
     display: flex;
     justify-content: flex-start;
 }
